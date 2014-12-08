@@ -19,6 +19,8 @@
 		2CDC3E0619745B5F00175D97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDC3DEE19745B5F00175D97 /* UIKit.framework */; };
 		2CDC3E0E19745B5F00175D97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC3E0C19745B5F00175D97 /* InfoPlist.strings */; };
 		2CDC3E1019745B5F00175D97 /* proj1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC3E0F19745B5F00175D97 /* proj1Tests.m */; };
+		2CDC3E1A19745BF700175D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC3E1919745BF700175D97 /* Main.storyboard */; };
+		2CDC3E1D197461EC00175D97 /* XYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC3E1C197461EC00175D97 /* XYZViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		2CDC3E0B19745B5F00175D97 /* proj1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "proj1Tests-Info.plist"; sourceTree = "<group>"; };
 		2CDC3E0D19745B5F00175D97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2CDC3E0F19745B5F00175D97 /* proj1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = proj1Tests.m; sourceTree = "<group>"; };
+		2CDC3E1919745BF700175D97 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2CDC3E1B197461EC00175D97 /* XYZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZViewController.h; sourceTree = "<group>"; };
+		2CDC3E1C197461EC00175D97 /* XYZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,9 @@
 		2CDC3DDE19745B5F00175D97 = {
 			isa = PBXGroup;
 			children = (
+				2CDC3E1919745BF700175D97 /* Main.storyboard */,
+				2CDC3E1B197461EC00175D97 /* XYZViewController.h */,
+				2CDC3E1C197461EC00175D97 /* XYZViewController.m */,
 				2CDC3DF019745B5F00175D97 /* proj1 */,
 				2CDC3E0919745B5F00175D97 /* proj1Tests */,
 				2CDC3DE919745B5F00175D97 /* Frameworks */,
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CDC3E1A19745BF700175D97 /* Main.storyboard in Resources */,
 				2CDC3DF519745B5F00175D97 /* InfoPlist.strings in Resources */,
 				2CDC3DFD19745B5F00175D97 /* Images.xcassets in Resources */,
 			);
@@ -240,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CDC3E1D197461EC00175D97 /* XYZViewController.m in Sources */,
 				2CDC3DFB19745B5F00175D97 /* XYZAppDelegate.m in Sources */,
 				2CDC3DF719745B5F00175D97 /* main.m in Sources */,
 			);
